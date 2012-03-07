@@ -1,0 +1,5 @@
+C:\Users\Sagar\Documents\Sag\Phase1\My Libraries\Compatibility\Compatibility\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sagar\Documents\Sag\Phase1\My Libraries\Compatibility\Compatibility\bin\Debug\Compatibility.dll
+C:\Users\Sagar\Documents\Sag\Phase1\My Libraries\Compatibility\Compatibility\bin\Debug\Compatibility.pdb
+C:\Users\Sagar\Documents\Sag\Phase1\My Libraries\Compatibility\Compatibility\obj\Debug\Compatibility.dll
+C:\Users\Sagar\Documents\Sag\Phase1\My Libraries\Compatibility\Compatibility\obj\Debug\Compatibility.pdb
