@@ -1,0 +1,19 @@
+RELEASE NOTES:
+(License: Microsoft Public License (Ms-PL))
+-------------------------------------------------
+Project Description
+The Compatibility API allows you currently to convert to and from certain formats from WPF and Winforms that do similar jobs but are imcompatible. e.g. the Image UI element in WPF requires BitmapImage format as its 'ImageSource'. On the other hand Winforms' PictureBox requires the regular Bitmap object as its 'Image'. The current alpha version allows you to convert to and from System.Drawing.Bitmap and System.Windows.Media.Imaging.ImageSource or System.Windows.Media.Imaging.BitmapImage.
+Helpful for your Imaging related conversions as of now. Still working on more...
+
+Implemented on .NET4.0 in C#
+--------------------------------------------------
+Use the conversion functions in Compatibility.dll to suit your needs:
+Sample:
+
+//Include a reference to Compatibility.dll in your project
+//assuming bmp is a System.Drawing.Bitmap object. and bi is a System.Windows.Media.Imaging.BitmapImage object
+
+bmp = Compatibility.Compatibility.BitmapImagetoBitmap((BitmapImage)bi);
+//or
+bi = Compatibility.Compatibility.BitmapImagetoBitmap((Bitmap)bmp);
+
